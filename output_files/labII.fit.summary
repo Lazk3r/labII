@@ -1,15 +1,15 @@
-Fitter Status : Successful - Wed Apr 12 12:04:09 2023
+Fitter Status : Successful - Wed Apr 26 12:15:24 2023
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : labII
 Top-level Entity Name : labII
 Family : Cyclone II
 Device : EP2C70F896C6
 Timing Models : Final
-Total logic elements : 122 / 68,416 ( < 1 % )
-    Total combinational functions : 122 / 68,416 ( < 1 % )
-    Dedicated logic registers : 58 / 68,416 ( < 1 % )
-Total registers : 58
-Total pins : 43 / 622 ( 7 % )
+Total logic elements : 196 / 68,416 ( < 1 % )
+    Total combinational functions : 194 / 68,416 ( < 1 % )
+    Dedicated logic registers : 85 / 68,416 ( < 1 % )
+Total registers : 85
+Total pins : 46 / 622 ( 7 % )
 Total virtual pins : 0
 Total memory bits : 0 / 1,152,000 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 300 ( 0 % )
