@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP2C70F896) Path("C:/Users/Univalle/Documents/new/labII/output_files/") File("labII.sof") MfrSpec(OpMask(1));
+		Device PartName(EP2C70F896) Path("C:/Users/Univalle/Downloads/labII-20230524T155445Z-001/labII/output_files/") File("labII.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

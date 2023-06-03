@@ -150,7 +150,7 @@ GND                          : AB21      : gnd    :                   :         
 VCCD_PLL4                    : AB22      : power  :                   : 1.2V    :           :                
 GND*                         : AB23      :        :                   :         : 6         :                
 GND*                         : AB24      :        :                   :         : 6         :                
-GND*                         : AB25      :        :                   :         : 6         :                
+change_reloj                 : AB25      : input  : 3.3-V LVTTL       :         : 6         : Y              
 GND*                         : AB26      :        :                   :         : 6         :                
 GND                          : AB27      : gnd    :                   :         :           :                
 VCCIO6                       : AB28      : power  :                   : 3.3V    : 6         :                
@@ -341,7 +341,7 @@ GND*                         : AJ2       :        :                   :         
 GND*                         : AJ3       :        :                   :         : 8         :                
 GND*                         : AJ4       :        :                   :         : 8         :                
 GND*                         : AJ5       :        :                   :         : 8         :                
-GND*                         : AJ6       :        :                   :         : 8         :                
+activ_alarm                  : AJ6       : output : 3.3-V LVTTL       :         : 8         : Y              
 GND*                         : AJ7       :        :                   :         : 8         :                
 GND*                         : AJ8       :        :                   :         : 8         :                
 GND*                         : AJ9       :        :                   :         : 8         :                
@@ -671,7 +671,7 @@ GND*                         : L4        :        :                   :         
 GND*                         : L5        :        :                   :         : 2         :                
 GND*                         : L6        :        :                   :         : 2         :                
 GND*                         : L7        :        :                   :         : 2         :                
-GND*                         : L8        :        :                   :         : 2         :                
+desactivar_alarma            : L8        : input  : 3.3-V LVTTL       :         : 2         : Y              
 GND*                         : L9        :        :                   :         : 2         :                
 GND*                         : L10       :        :                   :         : 2         :                
 VCCIO2                       : L11       : power  :                   : 3.3V    : 2         :                
@@ -841,8 +841,8 @@ GND+                         : T24       :        :                   :         
 GND+                         : T25       :        :                   :         : 6         :                
 GND*                         : T26       :        :                   :         : 6         :                
 GND*                         : T27       :        :                   :         : 6         :                
-sumHourAlarm                 : T28       : input  : 3.3-V LVTTL       :         : 6         : Y              
-GND*                         : T29       :        :                   :         : 6         :                
+change_hour                  : T28       : input  : 3.3-V LVTTL       :         : 6         : Y              
+change_min                   : T29       : input  : 3.3-V LVTTL       :         : 6         : Y              
 VCCIO6                       : T30       : power  :                   : 3.3V    : 6         :                
 GND*                         : U1        :        :                   :         : 1         :                
 GND*                         : U2        :        :                   :         : 1         :                
@@ -872,7 +872,7 @@ GND*                         : U25       :        :                   :         
 nSTATUS                      : U26       :        :                   :         : 6         :                
 CONF_DONE                    : U27       :        :                   :         : 6         :                
 MSEL1                        : U28       :        :                   :         : 6         :                
-GND*                         : U29       :        :                   :         : 6         :                
+sumHourAlarm                 : U29       : input  : 3.3-V LVTTL       :         : 6         : Y              
 sumMinAlarm                  : U30       : input  : 3.3-V LVTTL       :         : 6         : Y              
 GND                          : V1        : gnd    :                   :         :           :                
 GND*                         : V2        :        :                   :         : 1         :                
